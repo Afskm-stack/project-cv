@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+    display: flex;
+    font-size: 16px;
+    border: solid light black;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    list-style-type: none;
+    }
+    
+    span {
+    color: rgb(255, 196, 0);
+    }
+    
+    .profile {
+    background: rgb(255, 196, 0);
+    width: 270px;
+    margin: 20px;
+    padding: 50px 30px;
+    }
+    
+    .job {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .job .description {
+        width: 80%;
+    }
+    .description h3{margin-top:0}
+    
+    hr {
+    border-color: rgb(255, 196, 0);
+    }
+    
+    .informations {
+    padding: 50px 30px;
+    }
+    
+    .under {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    } 
+    .profile h2 {
+        background-color:black;
+        color: rgb(255, 196, 0);
+    }
