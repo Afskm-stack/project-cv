@@ -1,29 +1,45 @@
-* {
-    box-sizing: border-box;
-    }
+
     
     body {
     display: flex;
-    font-size: 16px;
-    border: solid light black;
+    font-size: 14px;
+    border-radius: solid light black;
     font-family: Arial, Helvetica, sans-serif, serif;
 }
-  ul {
-    list-style-type: none;
-  }
+ h1 span{color:#ffc400;
+
+}
+
+
+p span{
     
     
-    span {
-    color: rgb(255, 196, 0);
-    }
+    text-decoration: underline #ffc400;
     
+}
+  
+    
+    ul{
+        list-style-type: none;
+      }
+ .profile img{
+     background-color: #ffc400;
+ }
+    
+
     .profile {
-    background: rgb(255, 196, 0);
-    width: 270px;
-    margin: 20px;
-    padding: 50px 30px;
-    }
-    
+    background:#ffc400;
+    width:30%;
+    margin:50px;
+    text-align: start;
+}
+
+
+ .profile p{
+     text-align:justify;
+     padding:10px 10px 200px 40px;
+ }
+ 
     .job {
         display: flex;
         justify-content: space-between;
@@ -33,7 +49,7 @@
         width: 80%;
     }
     .description h3{
-        margin-top:0
+        margin-top:0;
     }
     
     hr {
@@ -53,4 +69,8 @@
     .profile h3 {
         background-color:black;
         color: rgb(255, 196, 0);
+        text-align:center;
+        padding-left:0;
+        padding-right:0;
+         
     }
