@@ -1,13 +1,11 @@
 
-    
+ 
     body {
     display: flex;
-    font-size: 14px;
-    border-radius: solid light rgba(0, 0, 0, 0);
+    font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif, serif;
 }
- h1 span{color:#ffc400;
-
+h1 span{color:#ffc400;
 }
 h4 span{
     text-decoration: underline #ffc400;
@@ -15,12 +13,12 @@ h4 span{
   ul {
     list-style-type:none;
 }
- .profile {
-    background-image:url("images/img.jpg")center;
-}
+
+
+
 .profile {
     background:#ffc400;
-    width:30%;
+    width:40%;
     margin:50px;
     text-align: start;
 }
@@ -28,12 +26,12 @@ h4 span{
      text-align:justify;
      padding:10px 10px 200px 40px;
  }
+ 
 .job {
         display: flex;
         justify-content: space-between;
     }
-
-    .job .description {
+   .job .description {
         width: 80%;
     }
     .description h3{
@@ -41,24 +39,56 @@ h4 span{
     }
     
     hr {
-    border-color: rgb(255, 196, 0);
+    border-color:#ffc400;
     }
     
     .informations {
     padding: 50px 30px;
     }
-    
-    .under {
+ .under {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
   
     } 
     .profile h3 {
-        background-color:black;
+        background-color:rgb(46, 43, 43);
         color: rgb(255, 196, 0);
         text-align:center;
         padding-left:0;
         padding-right:0;
-         
+   }
+
+    
+    .fa-swimmer{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 1px rgba(10, 1, 1, 0.979);
+  padding: 0.1em;
     }
+   .fa-biking{ display: inline-block;
+        border-radius: 60px;
+        box-shadow: 0px 0px 1px rgba(10, 1, 1, 0.979);
+        padding: 0.1em;}
+        .fa-table-tennis{
+            display: inline-block;
+            border-radius: 60px;
+            box-shadow: 0px 0px 1px rgba(10, 1, 1, 0.979);
+            padding: 0.1em
+        }
+    #image-profile {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    
+   h2 i {
+        margin-right:30px;
+  }
+    .fa-graduation-cap{color:yellow;}
+    .fa-briefcase{color:yellow;}
+    .fa-pencil-alt{color:yellow;}
+  
+    
+    
