@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <script src="https://kit.fontawesome.com/4fa2f96ea2.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon cv</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
 <body>
     <div class="profile">
-        <div><img id="image-profile" src="images/img.jpg" alt="photo de profile"></div>
+        <img class="circular" src="images/img.jpg" alt="photo de profile">
         <h3>CONTACT</h3>
         <ul>
             <li>Adresse<br>Paris,France</li>
@@ -28,18 +27,20 @@
             Iste placeat quis tempora officiis, ipsum exercitationem officia impedit iusto dolor consequatur ea dolorem!
             Officiis sunt fuga cupiditate ad. Rerum, nisi error!</p>
         <h3>LOISIRS</h3>
-        <p><i class="fas fa-swimmer"></i>
+        <p id="icons">
+            <i class="fas fa-swimmer"></i>
             <i class="fas fa-biking"></i>
-            <i class="fas fa-table-tennis"></i></p>
+            <i class="fas fa-table-tennis"></i>
+        </p>
     </div>
     <div class="informations">
         <h1><span>JESSICA</span> LEROY</h1>
         <h4><span>Dévelo</span>ppeuse web freelance</h4>
-        <h2><i class="fas fa-graduation-cap"></i>FORMATION</h2>
+        <h2><i class="fas fa-graduation-cap"></i>FORMATIONS</h2>
         <hr>
         <div class="job">
             <div class="date">
-                <p>2016-2017<br>Paris</p>
+                <p><i class="far fa-dot-circle"></i> 2016-2017<br>Paris</p>
             </div>
             <div class="description">
                 <p>OPENCLASSROOMS<br>web developer</p>
@@ -51,7 +52,7 @@
         </div>
         <div class="job">
             <div class="date">
-                </p>
+                </p><i class="fas fa-circle"></i>
                 2014-2016<br> Orleans
                 </p>
             </div>
@@ -66,14 +67,11 @@
                 </p>
             </div>
         </div>
-
-
-
-        <h2><i class="fas fa-briefcase"></i>EXPERIENCES PROFESSIONELLES</h2>
+        <h2><i class="fa fa-briefcase"></i>EXPERIENCES PROFESSIONELLES</h2>
         <hr>
         <div class="job">
             <div class="date">
-                <p> Mars 2018 poste actuel<br>Paris</p>
+                <p><i class="far fa-dot-circle"></i> Mars 2018-poste actuel<br>Paris</p>
             </div>
             <div class="description">
                 <p>DESIGN INC
@@ -85,7 +83,7 @@
         </div>
         <div class="job">
             <div class="date">
-                <p>2018 poste actuel<br> Paris</p>
+                <p><i class="fas fa-circle"></i>2018 poste actuel<br> Paris</p>
             </div>
             <div class="description">
                 <p>DESIGN INC</p>
@@ -113,6 +111,7 @@
 
     </div>
     </div>
+    <script src="https://kit.fontawesome.com/4fa2f96ea2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
