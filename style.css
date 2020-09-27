@@ -1,9 +1,13 @@
 body
 
 {
-    display: flex;
-    font-size: 1.2em;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif, serif;
+}
+.containere
+{
+    display:flex;
+
 }
 h1 span
 {
@@ -13,28 +17,45 @@ h4 span
 {
     border-bottom: solid #ffc400;
 }
-ul {
+ul
+{
     list-style-type:none;
 }
-.profile {
+.profile
+{
     background:#ffc400;
-    width:40%;
+    width:30%;
     text-align: start;
+    
 }
+
+.profile h3 
+{
+    background-color:rgb(46, 43, 43);
+    color: #ffc400;
+    text-align: center;
+    padding-left:0;
+    padding-right:0;
+}
+   
 .profile p
 {
     text-align:justify;
-    padding:30px; 
+    padding: 30px; 
 }
- 
+
+
+
 .job
 {
     display: flex;
     justify-content: space-between;
+   
 }
 .job .description 
 {
-    width: 80%;
+    width: 70%;
+
 }
 .description h3
 {
@@ -49,51 +70,48 @@ hr
 .informations 
 {
     padding: 50px 30px;
+ 
 }
 
-.under
-{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  
-} 
 .profile h3
+ 
 {
     background-color:rgb(46, 43, 43);
     color: rgb(255, 196, 0);
-    text-align:center;
-    padding-left:0;
-    padding-right:0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 .fa-swimmer
 {
-    width: 25px;
-    height: 25px;
+    display:inline-block;
+    width: 15px;
+    height: 15px;
     border:1px black solid;
     border-radius: 50%;
-    padding: .1rem;
+    padding: .5rem;
 }
 .fa-biking
 {
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border:1px black solid;
     border-radius: 50%;
-    padding: .1rem;
+    padding: .5rem;
        
 }
 .fa-table-tennis
 {
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border:1px black solid;
     border-radius: 50%;
-    padding: .1rem;
+    padding: .5rem;
 }
-.icons
+#icons
 {
     display:flex;
     justify-content: space-between;
@@ -135,17 +153,37 @@ h2 i
     .fa-dot-circle 
 {
     color:#ffc400;
-    font-size:.6em;
+    font-size: 1em;
 }
 .fa-circle
 {
     color:#ffc400;
-    font-size:.6em
+    font-size: 1em;
 }
-#icons
+.under
 {
     display:flex;
     justify-content: space-around;
+    padding:0 70% 0 0;
+   
 }
 
- 
+    
+
+@media screen and (width: max 1110px) {
+    body {
+        font-size:1rem;
+        font-weight: 1.5rem;
+
+    }
+    .profile 
+    {
+
+        width:auto;
+    }
+    .informations
+    {
+        width: auto;
+
+    }
+}
