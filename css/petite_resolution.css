@@ -1,0 +1,35 @@
+
+.container{
+    display:block;
+}
+.profile{
+    display: block;
+    width: 100%;
+}
+.job {
+    flex-direction: column;
+}
+
+.date {
+    padding: 20px 20px 20px 0px;
+}
+ .profile 
+{
+    width: 100%;
+}
+.informations{
+    width: 100%;
+}
+.description:first-child{
+    margin-bottom: 5px;
+
+}
+.under{
+    display:block;
+}
+
+
+
+
+
+

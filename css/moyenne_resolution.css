@@ -1,0 +1,72 @@
+.container 
+{
+     flex-direction: column;
+}
+.profile
+{
+     width:100%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+#presentation > h1, #presentation > h4 {
+     display: block;
+     text-align: center;
+}
+ .informations > h1, .informations > h4 {
+     display: none;
+
+    
+}
+ h1 span{
+      color: black;
+      text-align: justify;
+}
+
+ .under {
+      display: block;
+     
+}
+ #presentation h4{
+ margin-left: 10px; 
+}
+
+ .presentation #presentation h1 {
+     text-align: justify;
+}
+
+ ul{
+      border-left: solid 5px;
+     
+}
+ 
+.under ul {
+      border-left: none
+}
+
+.profile p{
+      border-right: solid 5px;
+}
+
+#icons {
+      border-right: none;
+}
+
+.job{
+     flex-direction: column;
+     margin: 5px;
+}
+
+.description{
+     margin: 5px;
+}
+
+.date{
+       margin: 5px;
+
+}
+ 
+.description:first-child {
+     margin-bottom: 5px; 
+}
+ 
+    
